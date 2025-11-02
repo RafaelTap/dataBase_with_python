@@ -1,0 +1,53 @@
+<--REGISTROS DE DADOS DE PESSOAS DE UMA CIDADE-->
+--> registrar dados pessoais de moradores de um bairro( um pequeno senso);
+
+ LINGUAGEM DE PROGRAMAÇÃO PYTHON;
+ BANCO DE DADOS MYSQL;
+ IDE DE DESENVOLVIMENTO PYCHARM;
+ GERENCIADOR DE BANCO DE DADOS MYSQL WORKBENCH;
+ 
+ TABELAS / ENTIDADES
+ 
+ <PESSOA> 
+-> p_id int 
+-> nome string
+-> documento string
+-> data de nascimento date
+-> sexo character
+-> renda double
+
+<ESCOLARIDADE> (fundamental, médio, superior incompleto, superior completo)
+-> t_id int 
+-> nivel string 
+
+<ENDERECO>
+-> e_id int 
+-> rua string 
+-> numero int 
+-> complemento string
+-> bairro string
+-> cidade string
+-> cep string
+
+<ESTADOCIVIL> (solteiro(a), casado(a), divorciado(a), viúvo(a), união estável
+-> ec_id int
+-> estadoCivil string (maiores de idade)
+
+<DEFICIENCIA>
+->d_id int
+-> deficiencia character
+
+<renda mensal>
+-> r_id int
+-> renda_mensal decimal
+
+
+--> separar por sexo e idade (bebês, crianças, adolescentes, adultos e idosos); verificar classificação oficial do Brasil;
+
+--> separar por nível de escolaridade;
+
+--> separar se possuí ou não deficiencia (idade e sexo)
+
+--> 
+
+
